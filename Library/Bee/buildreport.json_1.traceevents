@@ -1,0 +1,506 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1675867469304974, "dur": 7249086, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675867469306352, "dur": 23091, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675867469329587, "dur": 32400, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675867469362010, "dur": 285674, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675867469647687, "dur": 6896502, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675867476544209, "dur": 9850, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675867485395449, "dur": 1834807, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675867485395688, "dur": 7030, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675867485402720, "dur": 31958, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675867485434679, "dur": 582996, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675867486017677, "dur": 1200027, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675867487217706, "dur": 12549, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675867487230713, "dur": 22, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1675867485860101, "dur": 138657, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675867485861115, "dur": 41702, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675867485982797, "dur": 4662, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675867485987462, "dur": 11289, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675867485988205, "dur": 9886, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675867486003448, "dur": 1302, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675867486002613, "dur": 2162, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675867487230804, "dur": 218, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1675867486056259, "dur":1312, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675867486057578, "dur":39, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1675867486057626, "dur":15, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1675867486057642, "dur":264, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1675867486057927, "dur":489, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675867486058417, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675867487186873, "dur":17, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675867487186890, "dur":31, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675867487186921, "dur":75, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675867487186997, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675867487187012, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675867487187018, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675867487187032, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675867487187036, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675867487187045, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675867487187049, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675867487187057, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675867487187060, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675867487187070, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675867487187085, "dur":5, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675867487187157, "dur":3584, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1675867486058296, "dur":159, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675867486058455, "dur":4959, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675867486063414, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1675867486063471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675867486066913, "dur":6138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1675867486073086, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1675867486073119, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675867486073679, "dur":2083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1675867486075796, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1675867486075827, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675867486076125, "dur":1357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1675867486077518, "dur":7171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1675867486084712, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675867486084720, "dur":885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1675867486085647, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1675867486085689, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675867486085696, "dur":210327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1675867486296059, "dur":69886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675867486366031, "dur":2450, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675867486370618, "dur":15206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675867486385884, "dur":31122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675867486417010, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675867486417071, "dur":2954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675867486420061, "dur":23797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675867486443863, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675867486443871, "dur":2779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675867486447285, "dur":13556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675867486460845, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675867486460851, "dur":892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675867486461780, "dur":13244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675867486475028, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675867486475034, "dur":738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675867486475804, "dur":32167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675867486507975, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675867486507982, "dur":1580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675867486509601, "dur":19437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675867486529043, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675867486529050, "dur":1153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675867486530237, "dur":12239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675867486542478, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675867486542483, "dur":1697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675867486544212, "dur":15594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675867486559811, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675867486559821, "dur":3791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675867486563651, "dur":28951, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675867486592607, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675867486592615, "dur":1376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675867486594025, "dur":58876, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675867486652905, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675867486652912, "dur":1670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675867486654618, "dur":21712, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675867486676333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675867486676339, "dur":1123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675867486677494, "dur":21640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675867486699139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675867486699146, "dur":743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675867486699920, "dur":60616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675867486760538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675867486760544, "dur":641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675867486761213, "dur":24537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675867486785758, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675867486785768, "dur":874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675867486786675, "dur":73254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675867486859934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675867486859941, "dur":2964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675867486862936, "dur":86781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675867486949721, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675867486949729, "dur":1405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675867486951165, "dur":38393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675867486989563, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675867486989570, "dur":780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675867486990382, "dur":194738, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486058773, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486058774, "dur":4643, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486063418, "dur":7424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1675867486070847, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486070864, "dur":2455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1675867486073357, "dur":6079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1675867486079441, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486079450, "dur":2096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1675867486081578, "dur":8752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1675867486090333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486090340, "dur":1853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1675867486092226, "dur":12387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486104618, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486105385, "dur":4954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486110378, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1675867486110476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486110677, "dur":30033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1675867486140759, "dur":16779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486157543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486157624, "dur":1135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486158799, "dur":24144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486182948, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486182955, "dur":723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486183710, "dur":23629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486207344, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486207352, "dur":719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486208103, "dur":15479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486223587, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486223595, "dur":807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486224436, "dur":13891, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486238333, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486238340, "dur":858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486239234, "dur":14722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486253961, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486253968, "dur":932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486254937, "dur":49526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486304468, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486304475, "dur":18812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486323325, "dur":31249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486354578, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486354585, "dur":4951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486359570, "dur":50836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486410412, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486410421, "dur":6068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486416539, "dur":43576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486460120, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486460139, "dur":14183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486474364, "dur":15703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486490070, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486490075, "dur":1349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486491461, "dur":13500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486504964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486504969, "dur":1192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486506194, "dur":11980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486518180, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486518188, "dur":1528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486519754, "dur":35693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486555450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486555454, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486556430, "dur":21899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486578336, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486578345, "dur":1149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486579527, "dur":17484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486597016, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486597033, "dur":718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486597783, "dur":54243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486652032, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486652149, "dur":2104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486654288, "dur":17911, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486672202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486672208, "dur":2421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486674660, "dur":842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486675504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486675509, "dur":1439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486676991, "dur":1748, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486678744, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486678751, "dur":740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486679521, "dur":1550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486681076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486681083, "dur":784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486681904, "dur":59445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486741354, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486741361, "dur":966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486742359, "dur":59393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486801757, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486801764, "dur":1206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486803003, "dur":26227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486829236, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486829244, "dur":922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486830198, "dur":139416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486969619, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486969626, "dur":2280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486971938, "dur":1278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486973222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486973228, "dur":799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675867486974058, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1675867486974165, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486977151, "dur":755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1675867486977944, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1675867486977983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486978015, "dur":968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1675867486979023, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1675867486979058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486979064, "dur":801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1675867486979896, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1675867486979991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486979996, "dur":595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1675867486980626, "dur":776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1675867486981406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486981411, "dur":692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1675867486982138, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1675867486982169, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486982173, "dur":648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1675867486982861, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1675867486982892, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486982895, "dur":548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1675867486983471, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1675867486983507, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486983511, "dur":670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1675867486984214, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1675867486984261, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486984266, "dur":644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1675867486984939, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1675867486985027, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675867486985031, "dur":1367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1675867486986431, "dur":198797, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675867486058415, "dur":3, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675867486058418, "dur":4936, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675867486063362, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1675867486063365, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675867486064367, "dur":663, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1675867486065033, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1675867486065080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675867486065281, "dur":7762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1675867486073046, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1675867486073087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675867486073093, "dur":211653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1675867486284783, "dur":191881, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675867486476668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675867486476674, "dur":1948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675867486478718, "dur":24779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675867486503505, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675867486503515, "dur":1236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675867486504786, "dur":67223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675867486572014, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675867486572021, "dur":866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675867486572923, "dur":89211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675867486662139, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675867486662146, "dur":1160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675867486663339, "dur":2726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675867486666070, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675867486666077, "dur":735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675867486666842, "dur":36867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675867486703714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675867486703738, "dur":1100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675867486704870, "dur":125059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675867486829932, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675867486829942, "dur":883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675867486830854, "dur":123362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675867486954221, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675867486954228, "dur":1898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675867486956159, "dur":225161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675867487181325, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675867487181333, "dur":3556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675867487185012, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1675867487185015, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675867486058532, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675867486058532, "dur":4884, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675867486063416, "dur":7776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1675867486071196, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675867486071216, "dur":2106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1675867486073359, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1675867486073395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675867486073584, "dur":1860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1675867486075480, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1675867486075513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675867486075519, "dur":211053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1675867486286610, "dur":129276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675867486415889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675867486415894, "dur":2062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675867486417992, "dur":17728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675867486435724, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675867486435731, "dur":795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675867486436559, "dur":24468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675867486461029, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675867486461035, "dur":903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675867486461969, "dur":27846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675867486489821, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675867486489829, "dur":1030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675867486490898, "dur":17338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675867486508239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675867486508244, "dur":2529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675867486510857, "dur":14655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675867486525516, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675867486525522, "dur":707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675867486526260, "dur":15960, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675867486542224, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675867486542230, "dur":648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675867486542906, "dur":12269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675867486555179, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675867486555187, "dur":1627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675867486556848, "dur":18710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675867486575564, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675867486575572, "dur":1577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675867486577187, "dur":27219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675867486604428, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675867486604435, "dur":2473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675867486606942, "dur":37824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675867486644770, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675867486644777, "dur":2508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675867486647322, "dur":694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675867486648019, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675867486648026, "dur":1077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675867486649136, "dur":34161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675867486683301, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675867486683308, "dur":722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675867486684059, "dur":185790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675867486869853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675867486869859, "dur":2320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675867486872215, "dur":70210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675867486942430, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675867486942438, "dur":858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675867486943327, "dur":79138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675867487022469, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675867487022477, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675867487023508, "dur":161693, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675867486058654, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675867486058654, "dur":4762, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675867486063417, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1675867486063473, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675867486065564, "dur":8380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1675867486073979, "dur":6260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1675867486080243, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675867486080250, "dur":651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1675867486080935, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1675867486080966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675867486081014, "dur":6388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1675867486087443, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1675867486087480, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675867486087486, "dur":7795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1675867486095316, "dur":968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1675867486096303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675867486096309, "dur":1705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1675867486098050, "dur":25190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter.exe" }}
+,{ "pid":12345, "tid":5, "ts":1675867486123247, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675867486123254, "dur":1614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter.exe" }}
+,{ "pid":12345, "tid":5, "ts":1675867486124907, "dur":42907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675867486167819, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675867486167844, "dur":1290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675867486169170, "dur":26655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675867486195828, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675867486195835, "dur":678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675867486196545, "dur":65115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675867486261664, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675867486261671, "dur":747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675867486262452, "dur":11951, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675867486274408, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675867486274415, "dur":1050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675867486275510, "dur":20954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675867486296466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675867486296472, "dur":664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675867486297166, "dur":71970, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675867486369141, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675867486369150, "dur":1001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675867486370188, "dur":21069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675867486391269, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675867486395935, "dur":14609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675867486410581, "dur":54866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675867486465458, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675867486465520, "dur":2259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675867486467812, "dur":36731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675867486504547, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675867486504553, "dur":1168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675867486505755, "dur":13208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675867486518966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675867486518972, "dur":1193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675867486520199, "dur":15238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675867486535443, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675867486535467, "dur":1196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675867486536695, "dur":84780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675867486621477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675867486621482, "dur":1471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675867486622987, "dur":136370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675867486759362, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675867486759368, "dur":887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675867486760285, "dur":54001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675867486814309, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675867486814316, "dur":7721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675867486822070, "dur":180377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675867487002453, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675867487002463, "dur":1110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675867487003605, "dur":181527, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675867486058880, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675867486058881, "dur":4504, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675867486063385, "dur":26021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1675867486089411, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675867486089647, "dur":604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1675867486090282, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1675867486090315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675867486090321, "dur":1229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1675867486091585, "dur":567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486092155, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675867486092343, "dur":987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486093367, "dur":21388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486114759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675867486114764, "dur":19071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486133873, "dur":15591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486149468, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675867486150313, "dur":894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486151241, "dur":27559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486178806, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675867486178813, "dur":743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486179590, "dur":14271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486193868, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675867486193875, "dur":854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486194767, "dur":16284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486211057, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675867486211064, "dur":1727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486212829, "dur":17480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486230315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675867486230322, "dur":1303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486231659, "dur":13264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486244928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675867486244935, "dur":879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486245850, "dur":36403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486282257, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675867486282264, "dur":848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486283158, "dur":61168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486344331, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675867486344338, "dur":763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486345135, "dur":70179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486415319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675867486415326, "dur":2486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486417847, "dur":28905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486446755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675867486446761, "dur":10942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486457749, "dur":20331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486478088, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675867486478097, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486479162, "dur":16733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486495900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675867486495907, "dur":826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486496765, "dur":21486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486518254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675867486518259, "dur":2100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486520389, "dur":20456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486540851, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675867486540859, "dur":822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486541713, "dur":13461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486555179, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675867486555187, "dur":955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486556176, "dur":32765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486588947, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675867486588954, "dur":1285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486590274, "dur":31076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486621356, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675867486621364, "dur":871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486622269, "dur":49435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486671710, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675867486671718, "dur":2794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486674547, "dur":885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486675435, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675867486675442, "dur":1260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486676734, "dur":18648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486695386, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675867486695392, "dur":1112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486696536, "dur":37488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486734030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675867486734036, "dur":818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486734884, "dur":121932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486856821, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675867486856832, "dur":4867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486861737, "dur":26681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486888423, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675867486888430, "dur":806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486889275, "dur":72232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486961513, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675867486961523, "dur":915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867486962471, "dur":140838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867487103313, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675867487103320, "dur":1492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/w0467914/Desktop/TeleTemp/Teleporter_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675867487104843, "dur":80230, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675867487192334, "dur":1632, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1675867487231072, "dur": 578, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675867487230701, "dur": 965, "ph": "X", "name": "Write chrome-trace events", "args": {} },
